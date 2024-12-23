@@ -13,7 +13,7 @@ ECH() {
         fi
 }
 
-echo "cmd to check updates in another shell ' tail -f /var/log/logupdate.log '\n "
+echo "command to check updates in another shell ' tail -f /var/log/logupdate.log '\n "
 
 if grep -q "debian" $os
 then
